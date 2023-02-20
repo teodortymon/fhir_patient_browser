@@ -774,7 +774,7 @@ export default class PatientSearch
 
         // Set bigger limit here to reduce the chance of having to
         // make other queries to fetch subsequent pages
-        params.push("_count=500");
+        // params.push("");
 
         // Tags (not currently available in STU2)
         if (this.tags.length) {
@@ -815,7 +815,9 @@ export default class PatientSearch
             data,
             headers: {
                 accept: "application/json+fhir",
-                "content-type": "application/x-www-form-urlencoded"
+                "content-type": "application/x-www-form-urlencoded",
+                "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidGVvZG9yd29qY2lrIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOiJjM2RkZjM4Yi1mODBhLTQyOWQtODA4YS1mMWQ2NzhlMmVlMDgiLCJqdGkiOiJjNDkzYzYzMi01MjNhLTQ5OGEtYTY4NC0xYmEyZWNjOGViMWIiLCJleHAiOjE2NzY5MTg2MTksImlzcyI6ImFwaS5zaW1wbGlmaWVyLm5ldCIsImF1ZCI6ImFwaS5zaW1wbGlmaWVyLm5ldCJ9.adCz7cIH5nng8Vhgt2jxJQob-TfrO2mPIh7f_ytwWfY",
+                "x-apikey": "LgDHGAHUOcu0i0a3jH5xVEureGRgqiBi9XIazrpjUR6bHERD",
             }
         };
 
