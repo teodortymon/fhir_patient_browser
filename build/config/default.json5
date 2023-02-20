@@ -1,7 +1,7 @@
 {
     server: {
         type: "STU-3",
-        url: "https://r3.smarthealthit.org",
+        url: "https://34.111.55.123.nip.io/TeodorTest",
         tags: [
             {
                 key  : "pro-7-2017",
