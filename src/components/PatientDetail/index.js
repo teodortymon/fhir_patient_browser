@@ -175,12 +175,14 @@ export class PatientDetail extends React.Component
 
         // Find $everything
         .then(state => {
-            return getAllPages({ url: `${server.url}/Patient/${state.patient.id}/$everything?_count=500` })
-            .then(data => {
+            return getAllPages({ url: `${server.url}/Patient/${state.patient.id}` })
+                .then(data => {
+                    console.log(data);
                 let groups = {};
                 data.forEach(entry => {
                     let resourceType = getPath(entry, "resource.resourceType") || "Other";
                     let type = resourceType;
+                
 
                     if (type == "Observation") {
                         let subCat = String(
