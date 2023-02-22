@@ -5,6 +5,9 @@ Uses https://fhir.simplifier.net/TeodorTest Simplifier endpoint to demonstrate c
 
 Demo deployed here: https://fhir-patients.netlify.app/#/
 
+<video src="https://user-images.githubusercontent.com/8824670/220627706-68de9f9f-da6f-4dbd-8ff2-f94a715c4d44.mov" data-canonical-src="https://user-images.githubusercontent.com/8824670/220627706-68de9f9f-da6f-4dbd-8ff2-f94a715c4d44.mov" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px">
+</video>
+
 
 ## Usage
 The patient browser is standalone static html5 app living at 
