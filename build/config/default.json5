@@ -1,7 +1,7 @@
 {
     server: {
         type: "STU-3",
-        url: "https://34.111.55.123.nip.io/TeodorTest",
+        url: "https://fhir.simplifier.net/TeodorTest",
         tags: [
             {
                 key  : "pro-7-2017",
