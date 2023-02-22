@@ -1,6 +1,10 @@
 # patient-browser
-App to browse sample patients
-[DEMO](https://patient-browser.smarthealthit.org/index.html)
+App to browse sample patients adapted for internal showcase of FHIR ecosystem.
+
+Uses https://fhir.simplifier.net/TeodorTest Simplifier endpoint to demonstrate custom profiling of non-binary patients.
+
+Demo deployed here: https://fhir-patients.netlify.app/#/
+
 
 ## Usage
 The patient browser is standalone static html5 app living at 
